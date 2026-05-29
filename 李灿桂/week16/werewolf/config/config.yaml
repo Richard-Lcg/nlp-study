@@ -1,0 +1,6 @@
+# LLM 配置
+llm:
+  api_key: "sk-4f1e293d69ce4611830cf4386ab45cb3"        # 支持 ${ENV_VAR} 引用环境变量，或直接填写
+  model: "qwen3.7-max"      # 使用的模型
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"                          # 自定义 API 地址（可选）
+  max_tokens: 256                        # 单次回复最大 token 数（加速响应）

@@ -1,0 +1,6 @@
+# LLM 配置示例（复制为 config.yaml 后修改）
+llm:
+  api_key: "sk-ant-xxxxx"                # 你的 API key
+  model: "claude-sonnet-4-20250514"
+  base_url: null                          # 或 "https://api.example.com"
+  max_tokens: 1024

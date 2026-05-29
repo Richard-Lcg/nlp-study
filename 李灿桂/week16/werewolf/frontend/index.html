@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>狼人杀观战台</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🐺 狼人杀观战台</h1>
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="live" onclick="switchTab('live')">🎮 实时对局</button>
+    <button class="tab-btn" data-tab="history" onclick="switchTab('history')">📂 历史对局</button>
+  </nav>
+  <span id="status"></span>
+</header>
+
+<main>
+  <!-- ======== 实时对局面板 ======== -->
+  <section id="tab-live" class="tab-content active">
+    <!-- 控制区 -->
+    <div class="live-controls">
+      <label>人数：
+        <select id="live-players">
+          <option value="9">9 人局</option>
+          <option value="12">12 人局</option>
+        </select>
+      </label>
+      <button id="btn-start" onclick="startGame()">🎮 开始游戏</button>
+      <button id="btn-step" onclick="stepGame()" disabled>⏭ 单步执行</button>
+      <button id="btn-run" onclick="runToEnd()" disabled>▶ 运行到底</button>
+    </div>
+
+    <div class="live-layout">
+      <!-- 玩家面板 -->
+      <section class="panel players-panel">
+        <h2>👥 玩家列表</h2>
+        <div id="live-player-list"></div>
+      </section>
+
+      <!-- 主舞台 -->
+      <section class="panel stage-panel">
+        <div id="live-phase-banner">等待开始游戏...</div>
+        <div id="live-round-info"></div>
+        <div id="live-stage-content"></div>
+      </section>
+
+      <!-- 日志 -->
+      <section class="panel log-panel">
+        <h2>📜 对局日志</h2>
+        <div id="live-log-container"></div>
+      </section>
+    </div>
+  </section>
+
+  <!-- ======== 历史对局面板 ======== -->
+  <section id="tab-history" class="tab-content">
+    <div class="controls">
+      <select id="game-select" onchange="loadGame(this.value)">
+        <option value="">-- 选择对局 --</option>
+      </select>
+      <button id="btn-replay" onclick="toggleReplay()">▶ 自动回放</button>
+    </div>
+
+    <div class="history-layout">
+      <section class="panel players-panel">
+        <h2>👥 玩家列表</h2>
+        <div id="player-list"></div>
+      </section>
+
+      <section class="panel stage-panel">
+        <div id="phase-banner">等待加载对局...</div>
+        <div id="round-info"></div>
+        <div id="stage-content"></div>
+      </section>
+
+      <section class="panel log-panel">
+        <h2>📜 对局日志</h2>
+        <div id="log-container"></div>
+      </section>
+    </div>
+
+    <div class="progress-bar">
+      <button onclick="stepLog(-1)">◀ 上一步</button>
+      <span id="progress-text">0 / 0</span>
+      <button onclick="stepLog(1)">下一步 ▶</button>
+      <input type="range" id="log-slider" min="0" max="0" value="0"
+             oninput="jumpTo(parseInt(this.value))">
+    </div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

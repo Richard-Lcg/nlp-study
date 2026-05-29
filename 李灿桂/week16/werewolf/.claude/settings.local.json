@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python main.py)",
+      "Bash(python -c ' *)",
+      "Bash(dir *)",
+      "Bash(timeout 3 python frontend/server.py)",
+      "Bash(uvicorn api.server:app --host 0.0.0.0 --port 8000)",
+      "Bash(curl -s http://localhost:8000/api/games)",
+      "Bash(python -m json.tool)",
+      "Bash(kill %1)",
+      "Bash(wait)",
+      "Bash(npm install *)",
+      "Bash(taskkill //PID 5844 //F)",
+      "Bash(taskkill //PID 4372 //F)",
+      "Bash(python -m uvicorn api.server:app --host 0.0.0.0 --port 8080)",
+      "Read(//tmp/**)",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(curl -s -X POST http://localhost:8080/api/session/create -H \"Content-Type: application/json\" -d '{\"num_players\": 9}')"
+    ]
+  }
+}

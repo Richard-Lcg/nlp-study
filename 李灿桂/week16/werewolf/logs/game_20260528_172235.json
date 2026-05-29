@@ -1,0 +1,860 @@
+{
+  "winner": "werewolf",
+  "total_rounds": 1,
+  "players": [
+    {
+      "id": 0,
+      "name": "玩家0",
+      "role": "seer",
+      "status": "dead"
+    },
+    {
+      "id": 1,
+      "name": "玩家1",
+      "role": "villager",
+      "status": "alive"
+    },
+    {
+      "id": 2,
+      "name": "玩家2",
+      "role": "werewolf",
+      "status": "alive"
+    },
+    {
+      "id": 3,
+      "name": "玩家3",
+      "role": "villager",
+      "status": "alive"
+    },
+    {
+      "id": 4,
+      "name": "玩家4",
+      "role": "werewolf",
+      "status": "alive"
+    },
+    {
+      "id": 5,
+      "name": "玩家5",
+      "role": "villager",
+      "status": "dead"
+    },
+    {
+      "id": 6,
+      "name": "玩家6",
+      "role": "werewolf",
+      "status": "dead"
+    },
+    {
+      "id": 7,
+      "name": "玩家7",
+      "role": "witch",
+      "status": "dead"
+    },
+    {
+      "id": 8,
+      "name": "玩家8",
+      "role": "hunter",
+      "status": "dead"
+    }
+  ],
+  "logs": [
+    {
+      "round": 1,
+      "phase": "night_werewolf",
+      "message": "游戏开始",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_guard",
+      "message": "=== 夜晚来临 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_werewolf",
+      "message": "玩家 2 提交 kill → 玩家 5",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_werewolf",
+      "message": "玩家 4 提交 kill → 玩家 8",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_werewolf",
+      "message": "玩家 6 提交 kill → 玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_seer",
+      "message": "玩家 0 提交 investigate → 玩家 5",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_witch",
+      "message": "玩家 7 提交 poison → 玩家 8",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "昨晚 玩家8（玩家 8）死了",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "=== 白天讨论开始 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 0: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 7: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 1: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 2: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 5: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 4: 我是好人，我觉得4号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 6: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 3: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "=== 投票环节 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 0 投票给玩家 1",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 1 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 2 投票给玩家 1",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 3 投票给玩家 4",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 4 投票给玩家 0",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 6 投票给玩家 5",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 7 投票给玩家 5",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_guard",
+      "message": "=== 夜晚来临 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "昨晚是平安夜",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "=== 白天讨论开始 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 1: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 6: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 2: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 3: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 0: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 5: 我是好人，我觉得4号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 4: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 7: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "=== 投票环节 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 0 投票给玩家 2",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 1 投票给玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 2 投票给玩家 5",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 3 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 4 投票给玩家 1",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5 投票给玩家 2",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 6 投票给玩家 7",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 7 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_guard",
+      "message": "=== 夜晚来临 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "昨晚是平安夜",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "=== 白天讨论开始 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 7: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 6: 我是好人，我觉得4号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 2: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 5: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 0: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 3: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 1: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 4: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "=== 投票环节 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 0 投票给玩家 7",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 1 投票给玩家 7",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 2 投票给玩家 4",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 3 投票给玩家 2",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 4 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5 投票给玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 6 投票给玩家 7",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 7 投票给玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 7（玩家7）被放逐",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_guard",
+      "message": "=== 夜晚来临 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "昨晚是平安夜",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "=== 白天讨论开始 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 0: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 3: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 5: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 6: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 1: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 2: 我是好人，我觉得4号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 4: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "=== 投票环节 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 0 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 1 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 2 投票给玩家 0",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 3 投票给玩家 4",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 4 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5 投票给玩家 6",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 6 投票给玩家 0",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 6（玩家6）被放逐",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_guard",
+      "message": "=== 夜晚来临 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "昨晚是平安夜",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "=== 白天讨论开始 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 0: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 4: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 5: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 3: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 1: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 2: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "=== 投票环节 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 0 投票给玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 1 投票给玩家 0",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 2 投票给玩家 4",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 3 投票给玩家 0",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 4 投票给玩家 0",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5 投票给玩家 1",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 0（玩家0）被放逐",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_guard",
+      "message": "=== 夜晚来临 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "昨晚是平安夜",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "=== 白天讨论开始 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 5: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 4: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 1: 我是好人，我觉得1号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 2: 我是好人，我觉得4号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 3: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "=== 投票环节 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 1 投票给玩家 2",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 2 投票给玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 3 投票给玩家 2",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 4 投票给玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5 投票给玩家 4",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "night_guard",
+      "message": "=== 夜晚来临 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "昨晚是平安夜",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "=== 白天讨论开始 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 1: 我是好人，我觉得5号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 4: 我是好人，我觉得4号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 5: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 3: 我是好人，我觉得2号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_discussion",
+      "message": "玩家 2: 我是好人，我觉得3号有点可疑。",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "=== 投票环节 ===",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 1 投票给玩家 2",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 2 投票给玩家 4",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 3 投票给玩家 5",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 4 投票给玩家 5",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5 投票给玩家 3",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "day_vote",
+      "message": "玩家 5（玩家5）被放逐",
+      "data": {}
+    },
+    {
+      "round": 1,
+      "phase": "game_over",
+      "message": "游戏结束，werewolf 获胜！",
+      "data": {}
+    }
+  ]
+}
