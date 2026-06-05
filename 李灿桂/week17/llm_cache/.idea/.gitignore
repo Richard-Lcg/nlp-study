@@ -1,0 +1,27 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Python 编译文件
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE 相关（你已经有一部分，补充完整）
+.idea/
+*.iml
+.vscode/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 日志、数据库、环境变量等
+*.log
+*.sqlite3
+.env
